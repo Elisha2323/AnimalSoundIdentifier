@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>ANIMAL SOUNDS!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+        <div class="col-xs-12 header_div text-center">
+   <h1>Animal Sounds Website </h1>
+   <h5 >  Play different sounds like meowing, barking , chirping  ,neighing and clucking. </h5>
+   <span class='text-danger'>  NOTE:</span><span style="color:rgb(127, 127, 161);"> Please wait a few seconds. Speak LOUD and repeatedly in order to get your animal sound.</span>
+       </div>
+
+
+       <br><br>
+        <center>
+       <div class="main_div">
+        
+      <button style="margin-top: 40px; border-radius: 50px; color:rgb(109, 118, 162); background-color:rgb(220, 206, 234); border-color: rgb(217, 163, 217); font-size: 23px;"  onclick="startClassification();" > START </button>
+       
+      <h3 id="result_label"> I HEAR A: </h3>
+      <br> 
+      <h4 id="result_accuracy">  ACCURACY:</h4>
+
+      <img id="img1" src="" alt="Image 1" style="display: none;">
+<img id="img2" src="" alt="Image 2" style="display: none;">
+<img id="img3" src="" alt="Image 3" style="display: none;">
+<img id="img4" src="" alt="Image 4" style="display: none;">
+
+ </div>
+    </center>
+    <div class="copy_right_footer">
+      Developed by - Elisha Sky K. Santos.
+    </div> 
+
+
+
+
+
+   
+    <script src="main.js"></script>
+</body>
+</html>
