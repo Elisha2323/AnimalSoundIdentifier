@@ -1,0 +1,29 @@
+body{
+    background-color: #f0cdd3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.copy_right_footer{
+    position:fixed;
+    color:grey;
+    bottom:0;
+    width:100%;
+    font-size:18px;
+    background-color: white;
+    line-height:3;
+    text-align:center;
+    text-shadow: 5px 5px 5px grey;
+ 
+ }
+
+ .header_div{
+    
+    background-color: rgb(230, 240, 243);
+    color: #43a0c5;
+    
+ }
+
+ #result_label, #result_accuracy{
+    
+    color: #87ae92
+    ;}
